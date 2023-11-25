@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@200;300;400&family=Rubik+Wet+Paint&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style: none;
+}
+:root {
+  --font1: "Open Sans", sans-serif;
+  --font2: "Poppins", sans-serif;
+  --font3: "Rubik Wet Paint", sans-serif;
+  --color: #46eab2;
+  --color1: #00eb79;
+  --color2: #007451;
+}
+
+.marq {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  padding: 10px 150px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-transform: capitalize;
+  font-family: var(--font1);
+  color: var(--color2);
+}
+
+header {
+  position: fixed;
+  top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 15px 0 10px;
+  background-color: var(--color);
+  font-family: var(--font1);
+  width: 100%;
+}
+.logo-nav {
+  display: flex;
+  gap: 80%;
+}
+.logo-nav img {
+  height: 9vh;
+  cursor: pointer;
+}
+
+.logo-nav > ul {
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.logo-nav > ul:hover {
+  color: gray;
+  transition: 0.8s ease-in-out;
+}
+
+.searchbar {
+  width: 40%;
+  margin: 0 0 0 100px;
+}
+.search {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  /* border: 1px solid black; */
+  padding: 0px 0px 0 30px;
+  background-color: white;
+  width: 100%;
+  border-radius: 5px;
+}
+.search > input {
+  width: 88%;
+  padding: 10px 10px;
+  border: none;
+  outline: none;
+}
+.search > input::placeholder {
+  font-family: var(--font1);
+  font-size: 15px;
+}
+.search > button {
+  background-color: gainsboro;
+  border: none;
+  cursor: pointer;
+  padding: 5px 20px 5px 15px;
+  border-radius: 0 5px 5px 0;
+}
+
+.nav2 {
+  /* border: 1px solid black; */
+}
+.nav2 > ul {
+  text-transform: capitalize;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+}
+.nav2 > ul:hover {
+  color: gray;
+  transition: 0.8s ease-in-out;
+}
+.menu{
+  display: none;
+}
+.nav3 {
+  /* border: 1px solid black; */
+  position: relative;
+  width: 8%;
+}
+.nav3 > ul {
+  display: flex;
+  gap: 20px;
+}
+
+.nav3 > ul > button {
+  background-color: transparent;
+  border: none;
+}
+
+/* --- perry's code --- */
+
+.nav3Items > p {
+  font-size: 9px;
+  height: 13px;
+  width: 13px;
+  color: #fff;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  position: absolute;
+  right: 77px;
+  top: 2px;
+  font-weight: 800;
+}
+#cart-btn {
+  cursor: pointer;
+}
+#cart-btn:hover {
+  color: gray;
+  transition: 0.8s ease-in-out;
+}
+#menu-user {
+  cursor: pointer;
+}
+#menu-user:hover {
+  color: gray;
+  transition: 0.8s ease-in-out;
+}
